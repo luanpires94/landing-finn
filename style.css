@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #00BFFF;
+    border: solid 10px #fff;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0 2rem 0;
+}
+
+p {
+    font-weight: bold;
+    line-height: 2;
+}
+
+.roupa {
+    width: 600px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 40px 40px 0 0;
+    margin-left: 21rem;
+}
+
+.rosto {
+    width: 500px;
+    height: 330px;
+    background-color: #FFE4C4;
+    border-radius: 50%;
+    position: absolute;
+    top: 10rem;
+    left: 25rem;
+}
+
+.olho-esquerdo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #000;
+    position: absolute;
+    top: 14rem;
+    left: 32rem;
+}
+
+.olho-direito {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #000;
+    position: absolute;
+    top: 14rem;
+    left: 46rem;
+}
+
+.block-input {
+    width: 190px;
+    position: absolute;
+    top: 21rem;
+    left: 32rem;
+}
+
+input {
+    border: solid 2px #000;
+    border-radius: 5px;
+    height: 45px;
+    width: 275px;
+    padding: 10px;
+}
+
+button {
+    margin: 2rem 0 0 37rem;
+    background-color: #458B00;
+    color: #fff;
+    width: 110px;
+    height: 40px;
+    border: none;
+    box-shadow: 1px 5px 13px #000;
+    padding: 10px;
+}
